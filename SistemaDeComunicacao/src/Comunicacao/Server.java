@@ -57,6 +57,7 @@ public class Server {
             Logger.error("Erro no servidor:" + e.getMessage());
         }finally {
             pool.shutdown();
+            
         }
     }    
 }
