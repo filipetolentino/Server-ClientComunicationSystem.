@@ -22,5 +22,6 @@ public class Logger {
     
     private static String timestamp() {
         return LocalDateTime.now().format(formatter);
+        
     }
 }
